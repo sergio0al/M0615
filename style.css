@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "TikTok Sans", sans-serif;
+}
+
+
+header{
+    width: 100%;
+    height: 84px;
+    padding: 0px 16px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #logo{
+    width: 80px;
+}
+
+header nav{
+    display: flex;
+    text-align: center;
+    gap: 17px   ;  
+    font-size: 10px;
+    font-weight: 600;
+}
+
+header nav div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+header #comunicarseDiv img{
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+}
+
+
+header #iniciarDiv img{
+    width: 44px;
+    height: 44px;
+}
+
+
+#hero{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero #backgroundHero{
+    width: 361px;
+    height: 488px;
+    overflow: hidden;
+    position: absolute;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#hero #backgroundHero img{
+    max-height: 100%;
+}
+
+#hero #infoHero{
+    position: relative;
+    width: 313px;
+    height: 488px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+#hero #infoHero h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#hero #infoHero button{
+    width: 298px;
+    height: 48px;
+    box-sizing: border-box;
+    padding: 12px 16px;
+    display: flex;
+    justify-content: space-between;
+    border: 0px;
+    border-radius: 12px;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 16px;
+    margin: auto;
+    background-color: #17d5ff;
+    color: black;
+}
+
+
+
+
