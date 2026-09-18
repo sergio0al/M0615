@@ -105,3 +105,54 @@ header #iniciarDiv img{
 
 
 
+
+
+
+#sectionNav{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 88px; 
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+#sectionNav #navVimeo{
+    width: 287px;
+    height: 64px;
+    border-radius: 17px;
+    background-color: #656a6e;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    line-height: 140%;
+    letter-spacing: -.36px;
+    font-weight: 500;
+    font-size: .625rem;
+    text-align: center;
+}
+
+#sectionNav #navVimeo div{
+    width: 44px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: -3px   ;
+}
+
+
+
+#sectionNav #unirseVimeo{
+    width: 105px;
+    height: 64px;
+    border-radius: 17px;
+    background-color: #17d5ff;
+    text-align: center;
+    align-content: center;
+    line-height: 140%;
+    letter-spacing: -.36px;
+    font-weight: 500;
+    font-size: .625rem;
+}
