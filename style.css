@@ -408,3 +408,213 @@ header #iniciarDiv img{
     font-weight: 500;
     font-size: .625rem;
 }
+
+
+
+
+
+
+#sectionIa{
+    color: white;
+    background-color: #141a20;
+    box-sizing: border-box;
+    padding: 30px 15px;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+#sectionIa h2{
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -.08rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+#sectionIa .video{
+    width: 330px;
+}
+
+#sectionIa #traducirDiv{
+    margin-top: 40px;
+    width: 100%;
+    height: 389px;
+    box-sizing: border-box;
+    padding: 32px;
+    border-radius: 20px;
+    background-color: #192028;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#sectionIa #traducirDiv h4{
+    font-size: 1.125rem;
+    line-height: 1.35;
+    letter-spacing: -.03375rem;
+    font-weight: 600;
+}
+
+#sectionIa #traducirDiv p{
+    font-size:18px;
+    font-weight:400;
+    letter-spacing:0.54px;
+    line-height: 28px;
+}
+
+#sectionIa #traducirDiv button{
+    width: 227px;
+    height: 48px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 0px;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:16px;
+    font-weight: 500;
+    letter-spacing: 0.48px;
+}
+
+
+
+#sectionIa .desplegable{
+    display: flex;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: start;
+    margin: 0 30px 20px 30px;
+}
+
+#sectionIa .desplegable p{
+    display: flex;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: start;
+    margin: 0 20px 20px 0px;
+}
+
+
+
+
+
+#seguridadSection{
+    margin: 25px 15px;
+}
+
+#seguridadSection img{
+    border-radius: 12px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+#seguridadSection h2{
+    text-align: center;
+    font-size: 1.375rem;
+    line-height: 1.1;
+    letter-spacing: -.05375px;
+    font-weight: 500;
+    margin: 20px 0px 20px 0px;
+}
+
+#seguridadSection #descripcion{
+    text-align: center;
+    color: rgb(76, 88, 100);
+    letter-spacing:-0.48px;
+    line-height:20.8px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#seguridadSection button{
+    width: 300px;
+    height: 69px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    text-align: start;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: #141a20;
+    color: white;
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: -.03px;
+    font-weight: 600;
+    border: 0px;
+    border-radius: 12px;
+    margin: auto;
+}
+
+#seguridadSection #espacio{
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    gap:  20px;
+     font-weight: 600;
+}
+
+#seguridadSection #espacio hr{
+    width: 33px;
+    height: 3px;
+    border: 0px;
+    background-color: #141a20;
+}
+
+#seguridadSection #tranquilidadesDiv{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    text-align: center;
+    row-gap: 20px;
+    column-gap: 50px    ;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#seguridadSection #separador{
+    display: flex;
+    justify-content: space-around;
+    margin: -20px;
+    overflow: hidden;
+    width: 393px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+#seguridadSection #separador div{
+    width: 60px;
+    height: 20px;
+}
+
+#seguridadSection #separador .gris{
+    background-color: #cbd5e0;
+}
+
+#seguridadSection #separador .amarillo{
+    background-color: #ffb116;
+}
+
+#seguridadSection #separador .azul{
+    background-color: #17d5ff;
+}
+
+#seguridadSection #separador .verde{
+    background-color: #209e00;
+}
+
+#seguridadSection #separador .rosa{
+    background-color: #ff2acf;
+}
+
+#seguridadSection #separador .rojo{
+    background-color: #fb322b;
+}
