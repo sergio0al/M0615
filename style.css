@@ -1,3 +1,28 @@
+@font-face {
+    font-family: 'MiFuente';
+    src: url('./fonts/d4dc2a2a69a5b184-s.p.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MiFuente';
+    src: url('./fonts/de47ff92894fa0df-s.p.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MiFuente';
+    src: url('./fonts/ea6b9767317b855b-s.p.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -585,14 +610,16 @@ header #iniciarDiv img{
     justify-content: space-around;
     margin: -20px;
     overflow: hidden;
-    width: 393px;
+    width: 398px;
     overflow: hidden;
     margin-top: 50px;
+    margin-bottom: -26px;
 }
 
 #seguridadSection #separador div{
     width: 60px;
     height: 20px;
+    border: 0px;
 }
 
 #seguridadSection #separador .gris{
@@ -617,4 +644,156 @@ header #iniciarDiv img{
 
 #seguridadSection #separador .rojo{
     background-color: #fb322b;
+}
+
+
+
+
+#sectionNarradores{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 35px;
+    background-color: #141a20;
+    text-align: center;
+    color: white;
+}
+
+#sectionNarradores h2{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+#sectionNarradores p{
+    width: 330px;
+    margin-bottom: 30px;
+}
+
+#sectionNarradores .desplegable{
+    width: 330px;
+    height: 48px;
+    box-sizing: border-box;
+    padding: 12px 28px;
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+    border-right: 1px solid gray;
+    margin-bottom: 40px;
+}
+
+#sectionNarradores .desplegable p{
+    margin-bottom: 0px;
+}
+
+#sectionNarradores img{
+    text-align: center;
+}
+
+#sectionNarradores #separador{
+    display: flex;
+    justify-content: space-around;
+    margin: -20px;
+    overflow: hidden;
+    width: 393px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: -35px;
+    margin-bottom: -30px;
+}
+
+#sectionNarradores #separador div{
+    width: 60px;
+    height: 20px;
+}
+
+#sectionNarradores #separador .gris{
+    background-color: #ffffff;
+}
+
+#sectionNarradores #separador .amarillo{
+    background-color: #e4e9ef;
+}
+
+#sectionNarradores #separador .azul{
+    background-color: #cbd5e0;
+}
+
+#sectionNarradores #separador .verde{
+    background-color: #97a1ad;
+}
+
+#sectionNarradores #separador .rosa{
+    background-color: #68727c;
+}
+
+#sectionNarradores #separador .rojo{
+    background-color: #3d4751;
+}
+
+#sectionNarradores #separador .negro{
+    background-color: #181e24;
+}
+
+
+
+
+
+#sectionUltimo{
+    margin: 40px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px   ;
+}
+
+#sectionUltimo div{
+    width: 363px;
+    height: 411px;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    background-color: #f1f5f9;
+    border-radius: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#sectionUltimo div .nuevo{
+    background-color: #17d5ff;
+    border-radius: 4px;
+    width: 43px;
+    height: 19px;
+    font-weight: 600;
+    font-size: 12px;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
+#sectionUltimo div img{
+    width: 323px;
+    border-radius: 8px;
+}
+
+#sectionUltimo div button{
+    width: 300px;
+    height: 48px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    border-radius: 8px;
+    background-color: #141a20;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 16px;
+    border: 0px ;
 }
