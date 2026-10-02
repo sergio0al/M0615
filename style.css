@@ -797,3 +797,31 @@ header #iniciarDiv img{
     font-size: 16px;
     border: 0px ;
 }
+
+
+
+
+
+#sectionProducto{
+    margin: 70px 50px;
+}
+
+
+#sectionProducto h2{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 23px;
+}
+
+#sectionProducto p{
+    font-size: 16px;
+    margin-bottom: 25px ;
+    font-weight: 500;
+}
+
+#sectionProducto button{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #17d5ff;
+}
