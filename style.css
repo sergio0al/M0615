@@ -440,6 +440,63 @@ header #iniciarDiv img{
     text-align: center;
     font-size: 13px;
     margin: 0 -20px;
+    background-color: #f1f5f9;
+}
+
+
+#clientes h2{
+    margin-top: 60px;
+}
+
+#clientes .resenaDiv{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+
+#clientes .resena{
+    width: 480px;
+    height: 269px;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    align-items: center;
+    border-radius: 12px;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0px 20px;
+    margin: 60px 0px 100px 0px;
+}
+
+#clientes .resena img{
+    width: 80px;
+}
+
+#clientes .resena h3{
+    font-size: 22px;
+}
+
+#clientes .resena .persona{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-weight: 600;
+}
+
+#clientes .resena .persona .fotoResena{
+    width: 26px;
+    border-radius: 50%;
+}
+
+
+#clientes .resena span{
+    font-size: 22px;
+    color: rgb(211, 211, 211);
+    font-weight: bold;
 }
 
 
@@ -1242,6 +1299,130 @@ footer .opcionesPrivacidad p{
         font-weight: 500;
         letter-spacing: 0.4px;
     }
+
+    
+    #estrategiaDeVideo h2{
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
     
 
+    #displayVideo{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 80px;
+    }
+
+
+    #displayVideo .enlace{
+        font-size: 22px;
+        font-weight: bold;
+        text-align: start;
+        margin-bottom: 10px;
+    }
+
+    #displayVideo .enlace svg{
+        width: 0px;
+    }
+
+    #displayVideo div{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: space-between;
+    }
+
+    
+    #displayVideo div .hidden{
+        max-width: 361px;
+        height: 64px;
+        box-sizing: border-box;
+        padding: 12px 20px;
+        background-color: #28313a;
+        color: white;
+        border: 0px;
+        border-radius: 12px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 600;
+        text-align: start;
+        gap: 50px;
+        cursor: pointer;
+    }
+
+
+    #solucion{
+        display: flex;
+        margin: 0px 300px;
+    }
+
+    #solucion h3{
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    #solucion .descripcion{
+        width: 864px;
+        letter-spacing: 1px;
+    }
+
+    #solucion #videoContainer{
+        order: 2;
+    }
+
+    #solucion .header{
+        order: 1;
+    }
+
+
+
+    #perfiles{
+        display: flex;
+        flex-direction: row;
+        margin: 0px 300px;
+    }
+
+    #perfiles #videoContainer{
+        width: 576px;
+        height: 785px;
+        border-radius: 20px;
+    }
+    
+    #perfiles #videoContainer img{
+        width: 576px;
+        height: 785px;
+    }
+
+
+    #perfiles .prefilDiv{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-content: center;
+    }
+
+    #perfiles .prefilDiv .perfil{
+        width: 500px;
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    #perfiles .prefilDiv .titulo{
+        font-size: 18px;
+    }
+
+    #perfiles .prefilDiv .texto{
+        width: 450px;
+        font-size: 18px;
+    }
+
+    #perfiles .prefilDiv svg{
+        width: 80px;
+        align-items: center;
+    }
 }

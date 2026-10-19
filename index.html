@@ -80,88 +80,147 @@
 
 
         <section id="estrategiaDeVideo">
-            <h2>La plataforma que impulsa <br>su estrategia de video</h2>
-            <div>
-                <img src="images/videos/-High-Quality-Maker-Vimeo-Shoot.avif">
-                <p class="enlace">Alojamiento en alta calidad y sin anuncios<svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" fill="none" aria-hidden="true" color="inherit" viewBox="0 0 24 25" aria-labelledby="" style="color:white"><path fill="currentColor" d="m15.335 13.332-3.661 3.74a.983.983 0 1 0 1.405 1.376l5.136-5.246c.38-.388.38-1.018 0-1.406L13.079 6.55a.983.983 0 1 0-1.405 1.376l3.66 3.74h-8.5a.833.833 0 0 0 0 1.666z"></path></svg></p>
-                <p class="texto">Asegúrese de que sus videos se reproduzcan con la máxima resolución y siempre sin anuncios. Sin distracciones de la competencia ni sugerencias aleatorias.</p>
-            </div>
-            <div>
-                <img src="images/videos/Collaborate-Maker-Vimeo-Shoot.avif">
-                <p class="enlace">Colabore con cualquier persona<svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" fill="none" aria-hidden="true" color="inherit" viewBox="0 0 24 25" aria-labelledby="" style="color:white"><path fill="currentColor" d="m15.335 13.332-3.661 3.74a.983.983 0 1 0 1.405 1.376l5.136-5.246c.38-.388.38-1.018 0-1.406L13.079 6.55a.983.983 0 1 0-1.405 1.376l3.66 3.74h-8.5a.833.833 0 0 0 0 1.666z"></path></svg></p>
-                <p class="texto">Comparta cortes para su revisión, sea preciso con comentarios con códigos de tiempo y gestione el historial de versiones en una videoteca organizada.</p>
-            </div>
-            <div>
-                <img src="images/videos/Embed-Player-Maker.avif">
-                <p class="enlace">Inserte el reproductor en cualquier página<svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" fill="none" aria-hidden="true" color="inherit" viewBox="0 0 24 25" aria-labelledby="" style="color:white"><path fill="currentColor" d="m15.335 13.332-3.661 3.74a.983.983 0 1 0 1.405 1.376l5.136-5.246c.38-.388.38-1.018 0-1.406L13.079 6.55a.983.983 0 1 0-1.405 1.376l3.66 3.74h-8.5a.833.833 0 0 0 0 1.666z"></path></svg></p>
-                <p class="texto">Dirija el tráfico a su sitio web con el reproductor personalizable e insertable de Vimeo. Comparta en las redes sociales en cuestión de segundos.</p>
-            </div>
-            <div>
-                <img src="images/videos/Sell-Content-Vimeo-Shoot.avif">
-                <p class="enlace">Mantenga sus videos seguros<svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" fill="none" aria-hidden="true" color="inherit" viewBox="0 0 24 25" aria-labelledby="" style="color:white"><path fill="currentColor" d="m15.335 13.332-3.661 3.74a.983.983 0 1 0 1.405 1.376l5.136-5.246c.38-.388.38-1.018 0-1.406L13.079 6.55a.983.983 0 1 0-1.405 1.376l3.66 3.74h-8.5a.833.833 0 0 0 0 1.666z"></path></svg></p>
-                <p class="texto">Monetice contenidos on-demand e incluso cree una plataforma de suscripción con herramientas sencillas adaptables a su modelo de negocio.</p>
-            </div>
-            <div>
-                <img src="images/videos/Live-Streaming-Eagles.avif">
-                <p class="enlace">Transmita en vivo con confianza<svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" fill="none" aria-hidden="true" color="inherit" viewBox="0 0 24 25" aria-labelledby="" style="color:white"><path fill="currentColor" d="m15.335 13.332-3.661 3.74a.983.983 0 1 0 1.405 1.376l5.136-5.246c.38-.388.38-1.018 0-1.406L13.079 6.55a.983.983 0 1 0-1.405 1.376l3.66 3.74h-8.5a.833.833 0 0 0 0 1.666z"></path></svg></p>
-                <p class="texto">Organice eventos virtuales, seminarios web, transmisiones en vivo y mucho más con el conjunto de herramientas de transmisión en vivo fáciles de usar de Vimeo.</p>
+            <h2>La plataforma que impulsa <br class="hiddenDes">su estrategia de video</h2>
+            <div id="displayVideo">
+                <div>
+                    <img src="images/videos/-High-Quality-Maker-Vimeo-Shoot.avif">
+                    <p class="enlace">Alojamiento en alta calidad y sin anuncios<svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" fill="none" aria-hidden="true" color="inherit" viewBox="0 0 24 25" aria-labelledby="" style="color:white"><path fill="currentColor" d="m15.335 13.332-3.661 3.74a.983.983 0 1 0 1.405 1.376l5.136-5.246c.38-.388.38-1.018 0-1.406L13.079 6.55a.983.983 0 1 0-1.405 1.376l3.66 3.74h-8.5a.833.833 0 0 0 0 1.666z"></path></svg></p>
+                    <p class="texto">Asegúrese de que sus videos se reproduzcan con la máxima resolución y siempre sin anuncios. Sin distracciones de la competencia ni sugerencias aleatorias.</p>
+                    <button class="hidden">Más información sobre el alojamiento de videos<i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+                <div>
+                    <img src="images/videos/Collaborate-Maker-Vimeo-Shoot.avif">
+                    <p class="enlace">Colabore con cualquier persona<svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" fill="none" aria-hidden="true" color="inherit" viewBox="0 0 24 25" aria-labelledby="" style="color:white"><path fill="currentColor" d="m15.335 13.332-3.661 3.74a.983.983 0 1 0 1.405 1.376l5.136-5.246c.38-.388.38-1.018 0-1.406L13.079 6.55a.983.983 0 1 0-1.405 1.376l3.66 3.74h-8.5a.833.833 0 0 0 0 1.666z"></path></svg></p>
+                    <p class="texto">Comparta cortes para su revisión, sea preciso con comentarios con códigos de tiempo y gestione el historial de versiones en una videoteca organizada.</p>
+                    <button class="hidden">Más información sobre la colaboración en videos<i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+                <div>
+                    <img src="images/videos/Embed-Player-Maker.avif">
+                    <p class="enlace">Inserte el reproductor en cualquier página<svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" fill="none" aria-hidden="true" color="inherit" viewBox="0 0 24 25" aria-labelledby="" style="color:white"><path fill="currentColor" d="m15.335 13.332-3.661 3.74a.983.983 0 1 0 1.405 1.376l5.136-5.246c.38-.388.38-1.018 0-1.406L13.079 6.55a.983.983 0 1 0-1.405 1.376l3.66 3.74h-8.5a.833.833 0 0 0 0 1.666z"></path></svg></p>
+                    <p class="texto">Dirija el tráfico a su sitio web con el reproductor personalizable e insertable de Vimeo. Comparta en las redes sociales en cuestión de segundos.</p>
+                    <button class="hidden">Más información sobre el reproductor de videos<i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+                <div>
+                    <img src="images/videos/Sell-Content-Vimeo-Shoot.avif">
+                    <p class="enlace">Mantenga sus videos seguros<svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" fill="none" aria-hidden="true" color="inherit" viewBox="0 0 24 25" aria-labelledby="" style="color:white"><path fill="currentColor" d="m15.335 13.332-3.661 3.74a.983.983 0 1 0 1.405 1.376l5.136-5.246c.38-.388.38-1.018 0-1.406L13.079 6.55a.983.983 0 1 0-1.405 1.376l3.66 3.74h-8.5a.833.833 0 0 0 0 1.666z"></path></svg></p>
+                    <p class="texto">Monetice contenidos on-demand e incluso cree una plataforma de suscripción con herramientas sencillas adaptables a su modelo de negocio.</p>
+                    <button class="hidden">Más información sobre la seguridad de videos<i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+                <div>
+                    <img src="images/videos/Live-Streaming-Eagles.avif">
+                    <p class="enlace">Transmita en vivo con confianza<svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" fill="none" aria-hidden="true" color="inherit" viewBox="0 0 24 25" aria-labelledby="" style="color:white"><path fill="currentColor" d="m15.335 13.332-3.661 3.74a.983.983 0 1 0 1.405 1.376l5.136-5.246c.38-.388.38-1.018 0-1.406L13.079 6.55a.983.983 0 1 0-1.405 1.376l3.66 3.74h-8.5a.833.833 0 0 0 0 1.666z"></path></svg></p>
+                    <p class="texto">Organice eventos virtuales, seminarios web, transmisiones en vivo y mucho más con el conjunto de herramientas de transmisión en vivo fáciles de usar de Vimeo.</p>
+                    <button class="hidden">Más información sobre la monetización de videos<i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
             </div>
         </section>
 
 
         <section id="solucion">
-            <div id="videoContainer">
+            <div id="videoContainer" class="hiddenDes">
                 <img src="images/videos/sp.png">
             </div>
-            <h4>Cole Webley</h4>
-            <p class="cargo">Cineasta seleccionado por el personal<br>Miembro desde 2011</p>
-
-            <h3>Una solución de video<br>perfecta para todos</h3>
-            <p class="descripcion">Tanto si es un profesional experimentado como si acaba de empezar, la plataforma intuitiva de Vimeo le permite subir, gestionar y compartir sus videos con un control total sobre la privacidad y la distribución.</p>
-            <button><p>Consultar nuestros planes</p><img src="images/flecha.svg" style="color: white;"></button>
+            <div class="hiddenDes">
+                <h4>Cole Webley</h4>
+                <p class="cargo">Cineasta seleccionado por el personal<br>Miembro desde 2011</p>
+            </div>
+            <div class="header">
+                <h3>Una solución de video<br class="hiddenDes">perfecta para todos</h3>
+                <p class="descripcion">Tanto si es un profesional experimentado como si acaba de empezar, la plataforma intuitiva de Vimeo le permite subir, gestionar y compartir sus videos con un control total sobre la privacidad y la distribución.</p>
+                <button><p>Consultar nuestros planes</p><img src="images/flecha.svg" style="color: white;"></button>
+            </div>
         </section>
 
         <section id="perfiles">
-            <div class="perfil">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 100 100" aria-labelledby="" style="color:currentColor"><path fill="currentColor" fill-rule="evenodd" d="M0 34.586C0 24.32 8.528 16 19.048 16h38.095c10.52 0 19.047 8.321 19.047 18.586v4.483l16.407-10.673a4.86 4.86 0 0 1 4.888-.23c1.548.808 2.515 2.383 2.515 4.097v37.171c0 1.714-.967 3.288-2.515 4.097a4.86 4.86 0 0 1-4.888-.23L76.19 62.627v4.483c0 10.265-8.528 18.586-19.047 18.586H19.048C8.528 85.697 0 77.376 0 67.111zm76.19 16.873 14.286 9.293V40.945l-14.285 9.293zM19.048 25.293c-5.26 0-9.524 4.16-9.524 9.293V67.11c0 5.132 4.264 9.293 9.524 9.293h38.095c5.26 0 9.524-4.16 9.524-9.293V34.586c0-5.132-4.264-9.293-9.524-9.293z" clip-rule="evenodd"></path></svg>
-                <div>
-                    <p class="titulo">Profesionales de los videos →</p>
-                    <p class="texto">Presente trabajos, colabore con clientes y conéctese con una comunidad apasionada de cineastas y creativos.</p>
-                </div>
+            <div id="videoContainer" class="hidden">
+                <img src="images/videos/spMovile.png">
             </div>
-            <div class="perfil">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 100 100" aria-labelledby="" style="color:currentColor"><path fill="currentColor" d="M27.5 70c4 0 7.5-3 7.5-7v-1.5l14-14h2.5l8 8v.5c0 4 3.5 7.5 7.5 7.5s7.5-3.5 7.5-7.5v-.5l18-18c4 0 7.5-3.5 7.5-7.5s-3.5-7.5-7.5-7.5S85 26 85 30v1L67 49h-1l-8.5-9c0-4-4-7.5-8-7-4 0-7 3-7 7l-15 15c-4 0-7.5 3.5-7.5 7.5s3.5 7.5 7.5 7.5M95 90H10V5c0-3-2-5-5-5S0 2 0 5v90c0 3 2 5 5 5h90c3 0 5-2 5-5s-2-5-5-5"></path></svg>
-                <div>
-                    <p class="titulo">Equipos de marketing →</p>
-                    <p class="texto">Eleve su marca con videos de alta calidad y amplíe su alcance con precisión y control.</p>
+            <div class="prefilDiv">
+                <div class="perfil">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 100 100" aria-labelledby="" style="color:currentColor"><path fill="currentColor" fill-rule="evenodd" d="M0 34.586C0 24.32 8.528 16 19.048 16h38.095c10.52 0 19.047 8.321 19.047 18.586v4.483l16.407-10.673a4.86 4.86 0 0 1 4.888-.23c1.548.808 2.515 2.383 2.515 4.097v37.171c0 1.714-.967 3.288-2.515 4.097a4.86 4.86 0 0 1-4.888-.23L76.19 62.627v4.483c0 10.265-8.528 18.586-19.047 18.586H19.048C8.528 85.697 0 77.376 0 67.111zm76.19 16.873 14.286 9.293V40.945l-14.285 9.293zM19.048 25.293c-5.26 0-9.524 4.16-9.524 9.293V67.11c0 5.132 4.264 9.293 9.524 9.293h38.095c5.26 0 9.524-4.16 9.524-9.293V34.586c0-5.132-4.264-9.293-9.524-9.293z" clip-rule="evenodd"></path></svg>
+                    <div>
+                        <p class="titulo">Profesionales de los videos →</p>
+                        <p class="texto">Presente trabajos, colabore con clientes y conéctese con una comunidad apasionada de cineastas y creativos.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="perfil">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 100 100" aria-labelledby="" style="color:currentColor"><path fill="currentColor" d="M95 60h-5V10h5a5 5 0 1 0 0-10H5a5 5 0 1 0 0 10h5v50H5a5 5 0 1 0 0 9.999h40v5.75l-22.75 15a5 5 0 0 0 2.75 9.25 4.7 4.7 0 0 0 2.75-.85L45 87.749v7.25a5 5 0 0 0 10 0v-7.25l17.25 11.4a4.7 4.7 0 0 0 2.75.85 5 5 0 0 0 2.75-9.15l-22.75-15v-5.85h40a5 5 0 1 0 0-10m-15 0H20V10h60z"></path></svg>
-                <div>
-                    <p class="titulo">Equipos de comunicación →</p>
-                    <p class="texto">Centralice la comunicación y maximice la interacción con eventos en vivo de alta calidad y alojamiento de video seguro.</p>
+                <div class="perfil">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 100 100" aria-labelledby="" style="color:currentColor"><path fill="currentColor" d="M27.5 70c4 0 7.5-3 7.5-7v-1.5l14-14h2.5l8 8v.5c0 4 3.5 7.5 7.5 7.5s7.5-3.5 7.5-7.5v-.5l18-18c4 0 7.5-3.5 7.5-7.5s-3.5-7.5-7.5-7.5S85 26 85 30v1L67 49h-1l-8.5-9c0-4-4-7.5-8-7-4 0-7 3-7 7l-15 15c-4 0-7.5 3.5-7.5 7.5s3.5 7.5 7.5 7.5M95 90H10V5c0-3-2-5-5-5S0 2 0 5v90c0 3 2 5 5 5h90c3 0 5-2 5-5s-2-5-5-5"></path></svg>
+                    <div>
+                        <p class="titulo">Equipos de marketing →</p>
+                        <p class="texto">Eleve su marca con videos de alta calidad y amplíe su alcance con precisión y control.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="perfil">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 100 100" aria-labelledby="" style="color:currentColor"><path fill="currentColor" d="M95.79.94A66 66 0 0 0 84.953 0 65.1 65.1 0 0 0 50 10.136 65.1 65.1 0 0 0 15.046.247a66 66 0 0 0-10.835.94A5 5 0 0 0 1.217 2.9a4.9 4.9 0 0 0-1.15 3.23v59.331c-.011.727.14 1.447.442 2.109a4.95 4.95 0 0 0 1.306 1.722 5.041 5.041 0 0 0 4.094 1.114 55 55 0 0 1 21.561.598 54.7 54.7 0 0 1 19.634 8.845l.599.346h.55a4.59 4.59 0 0 0 3.495 0h.549l.6-.346a54.7 54.7 0 0 1 19.574-9.13 55 55 0 0 1 21.62-.857 5.04 5.04 0 0 0 4.094-1.114 4.95 4.95 0 0 0 1.306-1.722 4.9 4.9 0 0 0 .443-2.109V5.588a4.92 4.92 0 0 0-1.245-3.048 5 5 0 0 0-2.9-1.6M45.006 66.648a64.8 64.8 0 0 0-29.96-7.318h-4.994V9.89a44 44 0 0 1 4.993 0 54.6 54.6 0 0 1 29.96 8.9zm44.94-7.12h-4.993a64.8 64.8 0 0 0-29.96 7.318V18.788a54.6 54.6 0 0 1 29.96-8.9 44 44 0 0 1 4.993 0zm5.842 20.519a66 66 0 0 0-10.835-.94A65.1 65.1 0 0 0 50 89.245 65.1 65.1 0 0 0 15.046 79.11a66 66 0 0 0-10.835.939c-.65.102-1.273.33-1.834.672-.56.341-1.047.79-1.433 1.318a4.92 4.92 0 0 0-.878 3.696 4.94 4.94 0 0 0 2.106 3.148 5.03 5.03 0 0 0 3.737.758 55 55 0 0 1 21.561.599 54.7 54.7 0 0 1 19.634 8.844 5.03 5.03 0 0 0 5.792 0A54.7 54.7 0 0 1 72.53 90.24a55 55 0 0 1 21.561-.6 5.03 5.03 0 0 0 3.737-.757 4.94 4.94 0 0 0 2.106-3.148 4.922 4.922 0 0 0-.878-3.696 5 5 0 0 0-1.433-1.318 5 5 0 0 0-1.834-.672"></path></svg>
-                <div>
-                    <p class="titulo">Líderes de aprendizaje y desarrollo →</p>
-                    <p class="texto">Escale la capacitación con videos interactivos impulsados por IA que se integran con cualquier LMS para atraer a equipos globales en varios idiomas.</p>
+                <div class="perfil">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 100 100" aria-labelledby="" style="color:currentColor"><path fill="currentColor" d="M95 60h-5V10h5a5 5 0 1 0 0-10H5a5 5 0 1 0 0 10h5v50H5a5 5 0 1 0 0 9.999h40v5.75l-22.75 15a5 5 0 0 0 2.75 9.25 4.7 4.7 0 0 0 2.75-.85L45 87.749v7.25a5 5 0 0 0 10 0v-7.25l17.25 11.4a4.7 4.7 0 0 0 2.75.85 5 5 0 0 0 2.75-9.15l-22.75-15v-5.85h40a5 5 0 1 0 0-10m-15 0H20V10h60z"></path></svg>
+                    <div>
+                        <p class="titulo">Equipos de comunicación →</p>
+                        <p class="texto">Centralice la comunicación y maximice la interacción con eventos en vivo de alta calidad y alojamiento de video seguro.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="perfil">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 100 100" aria-labelledby="" style="color:currentColor"><path fill="currentColor" fill-rule="evenodd" d="M10 22.5c0-5.523 4.477-10 10-10h30c5.523 0 10 4.477 10 10v65H50v-25a5 5 0 0 0-5-5H25a5 5 0 0 0-5 5v25H10zm20 65h10v-20H30zm-5 10H5a5 5 0 0 1-5-5v-70c0-11.046 8.954-20 20-20h30c11.046 0 20 8.954 20 20v10h10c11.046 0 20 8.954 20 20v40a5 5 0 0 1-5 5H25m55-55c5.523 0 10 4.477 10 10v35H70v-45zM25 20.625a5 5 0 1 0 0 10 5 5 0 0 0 0-10M25 40a5 5 0 1 0 0 10 5 5 0 0 0 0-10m20-19.375a5 5 0 1 0 0 10 5 5 0 0 0 0-10M45 40a5 5 0 1 0 0 10 5 5 0 0 0 0-10" clip-rule="evenodd"></path></svg>
-                <div>
-                    <p class="titulo">Empresas de contenido →</p>
-                    <p class="texto">Monetice sus videos con todo lo que necesita para aumentar y gestionar su audiencia.</p>
+                <div class="perfil">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 100 100" aria-labelledby="" style="color:currentColor"><path fill="currentColor" d="M95.79.94A66 66 0 0 0 84.953 0 65.1 65.1 0 0 0 50 10.136 65.1 65.1 0 0 0 15.046.247a66 66 0 0 0-10.835.94A5 5 0 0 0 1.217 2.9a4.9 4.9 0 0 0-1.15 3.23v59.331c-.011.727.14 1.447.442 2.109a4.95 4.95 0 0 0 1.306 1.722 5.041 5.041 0 0 0 4.094 1.114 55 55 0 0 1 21.561.598 54.7 54.7 0 0 1 19.634 8.845l.599.346h.55a4.59 4.59 0 0 0 3.495 0h.549l.6-.346a54.7 54.7 0 0 1 19.574-9.13 55 55 0 0 1 21.62-.857 5.04 5.04 0 0 0 4.094-1.114 4.95 4.95 0 0 0 1.306-1.722 4.9 4.9 0 0 0 .443-2.109V5.588a4.92 4.92 0 0 0-1.245-3.048 5 5 0 0 0-2.9-1.6M45.006 66.648a64.8 64.8 0 0 0-29.96-7.318h-4.994V9.89a44 44 0 0 1 4.993 0 54.6 54.6 0 0 1 29.96 8.9zm44.94-7.12h-4.993a64.8 64.8 0 0 0-29.96 7.318V18.788a54.6 54.6 0 0 1 29.96-8.9 44 44 0 0 1 4.993 0zm5.842 20.519a66 66 0 0 0-10.835-.94A65.1 65.1 0 0 0 50 89.245 65.1 65.1 0 0 0 15.046 79.11a66 66 0 0 0-10.835.939c-.65.102-1.273.33-1.834.672-.56.341-1.047.79-1.433 1.318a4.92 4.92 0 0 0-.878 3.696 4.94 4.94 0 0 0 2.106 3.148 5.03 5.03 0 0 0 3.737.758 55 55 0 0 1 21.561.599 54.7 54.7 0 0 1 19.634 8.844 5.03 5.03 0 0 0 5.792 0A54.7 54.7 0 0 1 72.53 90.24a55 55 0 0 1 21.561-.6 5.03 5.03 0 0 0 3.737-.757 4.94 4.94 0 0 0 2.106-3.148 4.922 4.922 0 0 0-.878-3.696 5 5 0 0 0-1.433-1.318 5 5 0 0 0-1.834-.672"></path></svg>
+                    <div>
+                        <p class="titulo">Líderes de aprendizaje y desarrollo →</p>
+                        <p class="texto">Escale la capacitación con videos interactivos impulsados por IA que se integran con cualquier LMS para atraer a equipos globales en varios idiomas.</p>
+                    </div>
+                </div>
+                <div class="perfil">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 100 100" aria-labelledby="" style="color:currentColor"><path fill="currentColor" fill-rule="evenodd" d="M10 22.5c0-5.523 4.477-10 10-10h30c5.523 0 10 4.477 10 10v65H50v-25a5 5 0 0 0-5-5H25a5 5 0 0 0-5 5v25H10zm20 65h10v-20H30zm-5 10H5a5 5 0 0 1-5-5v-70c0-11.046 8.954-20 20-20h30c11.046 0 20 8.954 20 20v10h10c11.046 0 20 8.954 20 20v40a5 5 0 0 1-5 5H25m55-55c5.523 0 10 4.477 10 10v35H70v-45zM25 20.625a5 5 0 1 0 0 10 5 5 0 0 0 0-10M25 40a5 5 0 1 0 0 10 5 5 0 0 0 0-10m20-19.375a5 5 0 1 0 0 10 5 5 0 0 0 0-10M45 40a5 5 0 1 0 0 10 5 5 0 0 0 0-10" clip-rule="evenodd"></path></svg>
+                    <div>
+                        <p class="titulo">Empresas de contenido →</p>
+                        <p class="texto">Monetice sus videos con todo lo que necesita para aumentar y gestionar su audiencia.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="clientes">
             <h2>Lo que dicen los clientes</h2>
-            <img src="images/reseñas/sam-reich.png">
+            <div class="resenaDiv">
+                <div class="resena">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="41" height="34" fill="currentColor" viewBox="0 0 42 35" aria-labelledby="" style="color: rgb(241, 241, 241);"><path d="M41.919 6.36c-6.72 1.68-10.2 5.52-10.56 12.24.36-.12.84-.12 1.2-.12 5.64.12 8.16 3.72 8.16 8.04 0 4.44-3 8.04-7.8 8.04-5.16 0-9.72-3.96-9.72-13.08 0-11.28 6.72-19.56 18.72-21.48zM.519 21.48C.518 10.2 7.238 1.92 19.238 0v6.36c-6.72 1.68-10.2 5.52-10.56 12.24.36-.12.84-.12 1.2-.12 5.64.12 8.16 3.72 8.16 8.04 0 4.44-3 8.04-7.8 8.04-5.16 0-9.72-3.96-9.72-13.08"></path></svg>
+                    <h3>"¡Nos ha salbado tantas veces en los ultimos años!"</h3>
+                    <img src="images/estrellas.png" alt="5 estrellas">
+                    <div class="persona">
+                        <img src="images/resenas/SamGreenhoe.avif" alt="SamGreenhoe" class="fotoResena">
+                        <p>Meg Volk</p>
+                        <span>/</span>
+                        <p>Videógrafo</p>
+                        <span>/</span>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Tallinn, Estonia</p>
+                    </div>
+                </div>
+                <div class="resena hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="41" height="34" fill="currentColor" viewBox="0 0 42 35" aria-labelledby="" style="color: rgb(241, 241, 241);"><path d="M41.919 6.36c-6.72 1.68-10.2 5.52-10.56 12.24.36-.12.84-.12 1.2-.12 5.64.12 8.16 3.72 8.16 8.04 0 4.44-3 8.04-7.8 8.04-5.16 0-9.72-3.96-9.72-13.08 0-11.28 6.72-19.56 18.72-21.48zM.519 21.48C.518 10.2 7.238 1.92 19.238 0v6.36c-6.72 1.68-10.2 5.52-10.56 12.24.36-.12.84-.12 1.2-.12 5.64.12 8.16 3.72 8.16 8.04 0 4.44-3 8.04-7.8 8.04-5.16 0-9.72-3.96-9.72-13.08"></path></svg>
+                    <h3>"¡Nos ha salbado tantas veces en los ultimos años!"</h3>
+                    <img src="images/estrellas.png" alt="5 estrellas">
+                    <div class="persona">
+                        <img src="images/resenas/SamGreenhoe.avif" alt="SamGreenhoe" class="fotoResena">
+                        <p>Meg Volk</p>
+                        <span>/</span>
+                        <p>Videógrafo</p>
+                        <span>/</span>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Tallinn, Estonia</p>
+                    </div>
+                </div>
+                <div class="resena hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="41" height="34" fill="currentColor" viewBox="0 0 42 35" aria-labelledby="" style="color: rgb(241, 241, 241);"><path d="M41.919 6.36c-6.72 1.68-10.2 5.52-10.56 12.24.36-.12.84-.12 1.2-.12 5.64.12 8.16 3.72 8.16 8.04 0 4.44-3 8.04-7.8 8.04-5.16 0-9.72-3.96-9.72-13.08 0-11.28 6.72-19.56 18.72-21.48zM.519 21.48C.518 10.2 7.238 1.92 19.238 0v6.36c-6.72 1.68-10.2 5.52-10.56 12.24.36-.12.84-.12 1.2-.12 5.64.12 8.16 3.72 8.16 8.04 0 4.44-3 8.04-7.8 8.04-5.16 0-9.72-3.96-9.72-13.08"></path></svg>
+                    <h3>"¡Nos ha salbado tantas veces en los ultimos años!"</h3>
+                    <img src="images/estrellas.png" alt="5 estrellas">
+                    <div class="persona">
+                        <img src="images/resenas/SamGreenhoe.avif" alt="SamGreenhoe" class="fotoResena">
+                        <p>Meg Volk</p>
+                        <span>/</span>
+                        <p>Videógrafo</p>
+                        <span>/</span>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Tallinn, Estonia</p>
+                    </div>
+                </div>
+                
+            </div>
         </section>
 
         <section id="sectionIa"">
