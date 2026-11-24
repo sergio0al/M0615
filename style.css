@@ -87,7 +87,6 @@ header{
 
 .headerBtn .filtro {
   position: absolute;
-  inset: 0;
   background-color: #15aacc;
   border-radius: 12px;
   transform: translateX(100%);
@@ -97,7 +96,6 @@ header{
 
 .headerBtn .texto {
   position: absolute;
-  inset: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -304,9 +302,10 @@ header #iniciarDiv img{
     height: 24px;
 }
 
-#hero #probar .conjuntoFlechas i:last-child{
+#hero #probar .conjuntoFlechas .iconoExtra{
     display: none;
 }
+
 
 
 
@@ -507,7 +506,6 @@ header #iniciarDiv img{
 
 #profesionales a .filtro {
   position: absolute;
-  inset: 0;
   margin: 0;
   background-color: #15aacc;
   transform: translateX(100%);
@@ -517,7 +515,6 @@ header #iniciarDiv img{
 
 #profesionales a .divTexto {
   position: absolute;
-  inset: 0;
   z-index: 1;
   margin: 0;
   display: flex;
@@ -821,6 +818,47 @@ header #iniciarDiv img{
     color: #4c5864;
 }
 
+#perfiles .prefilDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+#perfiles .perfil svg{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+#perfiles .perfil .titulo{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#perfiles .perfil .flechas{
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    display: block;
+}
+
+#perfiles .perfil .conjutoFlechas{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s;
+}
+
+#perfiles .perfil .conjutoFlechas i{
+    flex: 0 0 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#perfiles .perfil:hover .conjutoFlechas{
+    transform: translateX(-30px);
+}
 
 
 #clientes{
@@ -893,7 +931,7 @@ header #iniciarDiv img{
 
 @keyframes carrusel{
     0%   { transform: translateX(0); }
-    100% { transform: translateX(-1400px); } /* 4 tarjetas × 520px */
+    100% { transform: translateX(-1400px); } 
 }
 
 
@@ -906,6 +944,13 @@ header #iniciarDiv img{
     justify-content: center;
     gap: 8px;
     z-index: 100;
+}
+
+#sectionNav #navVimeo div svg{
+    display: block;   
+}
+#sectionNav #navVimeo div svg path{
+    fill: white;
 }
 
 #sectionNav #navVimeo{
@@ -1000,7 +1045,7 @@ header #iniciarDiv img{
 #sectionIa #traducirDiv{
     margin-top: 40px;
     width: 100%;
-    height: 389px;
+    height: auto;
     box-sizing: border-box;
     padding: 32px;
     border-radius: 20px;
@@ -1008,7 +1053,8 @@ header #iniciarDiv img{
     text-align: start;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 24px;
     margin-bottom: 30px;
 }
 
@@ -1273,29 +1319,37 @@ header #iniciarDiv img{
 
 
 
-
 #sectionUltimo{
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 40px 15px 60px 15px;
 }
 
 #sectionUltimo h2{
     width: 100%;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
 }
 
 #sectionUltimo .todoUltimo{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
     width: 100%;
-    margin-top: 0;
 }
 
-#sectionUltimo div{
-    width: 363px;
-    height: 411px;
+
+.tarjetaUltimo{
+    width: 100%;
+    max-width: 363px;
+    min-height: 411px;  
+    height: auto;
     box-sizing: border-box;
     padding: 30px 20px;
     background-color: #f1f5f9;
@@ -1303,11 +1357,12 @@ header #iniciarDiv img{
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;   
+    align-items: center;
+    gap: 24px;
 }
 
-
-#sectionUltimo div .nuevo{
+.tarjetaUltimo .nuevo{
     background-color: #17d5ff;
     border-radius: 4px;
     width: 43px;
@@ -1319,30 +1374,34 @@ header #iniciarDiv img{
     align-content: center;
 }
 
-#sectionUltimo div img{
-    width: 323px;
-    border-radius: 8px;
+.tarjetaUltimo p{
+    font-size: 16px;
+    line-height: 1.3;
 }
 
-#sectionUltimo div button{
-    width: 300px;
+.tarjetaUltimo button{
+    width: 100%;
+    max-width: 300px;
     height: 48px;
     box-sizing: border-box;
     padding: 12px 20px;
+    border: 0;
     border-radius: 8px;
     background-color: #141a20;
-    color:white;
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     font-weight: 500;
     font-size: 16px;
-    border: 0px ;
 }
 
-
-
+.tarjetaUltimo img{
+    width: 100%;
+    max-width: 323px;
+    border-radius: 8px;
+}
 
 
 #sectionProducto{
@@ -1406,7 +1465,54 @@ header #iniciarDiv img{
 }
 
 
+footer{
+    padding: 30px 16px 120px 16px;
+    font-size: 15px;
+}
 
+#redesIdioma{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.redes{
+    display: flex;
+    gap: 18px;
+    font-size: 22px;
+}
+
+.idioma select{
+    border: none;
+    border-radius: 8px;
+    padding: 6px 10px;
+    background-color: #e4e9ef;
+}
+
+.copyright{
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 14px;
+}
+
+.enlaces{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+.enlaces li{
+    display: block;
+    border-right: 1px solid #4c5864;
+    padding-right: 10px;
+}
+
+.opcionesPrivacidad p{
+    font-size: 15px;
+}
 
 
 
@@ -1684,7 +1790,9 @@ header #iniciarDiv img{
         margin: 0;
     }
 
-
+    #hero #probar .conjuntoFlechas .iconoExtra{
+        display: flex;
+    }
 
     #hero #infoHero #probar {
         margin: 0;
@@ -2080,56 +2188,60 @@ header #iniciarDiv img{
 
 
 
-
-     #sectionUltimo{
-        flex-direction: row;
-        justify-content: center;
-        gap: 32px;
-        margin: 40px;
-    }
-
-    #sectionUltimo .contentNuevo{
-        display: flex;
-        flex-direction: row;
+    #sectionUltimo{
+        width: 100%;
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 60px 20px;
     }
 
     #sectionUltimo h2{
         width: 100%;
-        margin: 0 0 20px 0;
+        margin: 0 0 40px 0;
+        text-align: center;
+        font-size: 40px;
     }
 
-    #sectionUltimo div{
-        width: 50%;
+    #sectionUltimo .todoUltimo{
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: center;
+        gap: 32px;
+    }
+
+    .tarjetaUltimo{
+        flex: 1;
+        max-width: none;
         height: auto;
         justify-content: flex-start;
-        align-items: center;
         gap: 36px;
         padding: 60px 20px;
     }
 
-    #sectionUltimo div p{
+    .tarjetaUltimo p{
         max-width: 400px;
         margin: 0;
     }
 
-    #sectionUltimo div button{
+    .tarjetaUltimo button{
         width: 131px;
         justify-content: center;
         gap: 12px;
         margin: 0;
     }
 
-    #sectionUltimo div img{
+    .tarjetaUltimo img{
         width: 443px;
         max-width: 100%;
     }
+
 
 
     #sectionProducto{
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        margin: 70px 90px;
+        margin: 70px 430px;
     }
 
 
@@ -2233,7 +2345,6 @@ header #iniciarDiv img{
 
     #solucion .headerBtn .texto {
         position: absolute;
-        inset: 0;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -2339,7 +2450,6 @@ header #iniciarDiv img{
 
     #sectionIa .headerBtn .filtro {
         position: absolute;
-        inset: 0;
         background-color: #15aacc;
         border-radius: 12px;
         transform: translateX(100%);
@@ -2349,7 +2459,6 @@ header #iniciarDiv img{
 
     #sectionIa .headerBtn .texto {
         position: absolute;
-        inset: 0;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -2389,7 +2498,9 @@ header #iniciarDiv img{
         transform: translateX(-135%);
     }
 
-
+    footer{
+        margin: 0 300px;
+    }
 }
 
 
