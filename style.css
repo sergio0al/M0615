@@ -64,44 +64,48 @@ header{
 
 
 .headerBtn {
-  width: 110px;
-  height: 48px;
-  background-color: #17d5ff;
-  position: relative;
-  border-radius: 12px;
-  overflow: hidden;
-  text-decoration: none;
-  color: #000;
-  display: none;
+    width: 110px;
+    height: 48px;
+    background-color: #17d5ff;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #000;
+    display: none;
 }
 
 .headerBtn:hover .filtro{
-   transform: translateX(0); 
+    transform: translateX(0); 
 }
 
 .headerBtn:hover .conjutoFlechas {
-  transform: translateX(0);
+    transform: translateX(0);
 }
 
 
 
 .headerBtn .filtro {
-  position: absolute;
-  background-color: #15aacc;
-  border-radius: 12px;
-  transform: translateX(100%);
-  transition: 0.3s;
+    position: absolute;
+    background-color: #15aacc;
+    border-radius: 12px;
+    transform: translateX(100%);
+    transition: 0.3s;
 }
 
 
 .headerBtn .texto {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  font-weight: bold;
-  font-size: 16px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transform: translateY(14px) translateX(14px);
 }
 
 
@@ -261,11 +265,13 @@ header #iniciarDiv img{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    align-content: center;
 }
 
 #hero #infoHero #planes .divTexto p{
     font-size: 16px;
     font-weight: 500;
+    align-content: center;
 }
 
 #hero #infoHero #planes .divFlechas{
@@ -521,6 +527,7 @@ header #iniciarDiv img{
   align-items: center;
   justify-content: center;
   gap: 10px;
+  align-content: center;
 }
 
 #profesionales a .divTexto p {
@@ -2351,6 +2358,10 @@ footer{
         gap: 10px;
         font-weight: bold;
         font-size: 16px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        transform: translateY(14px) translateX(14px);
     }
 
 
@@ -2465,6 +2476,14 @@ footer{
         gap: 10px;
         font-weight: bold;
         font-size: 16px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        transform: translateY(14px) translateX(14px);
+    }
+
+    .solicitarBtn .divTexto{
+        transform: translateY(13px) translateX(14px);
     }
 
 
